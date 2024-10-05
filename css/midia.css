@@ -1,0 +1,125 @@
+@media screen and (max-width: 375px) {
+  body {
+    background: var(--Paple-blue) url(../images/pattern-background-mobile.svg)
+      no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    overflow: hidden;
+    min-height: 100vh;
+  }
+
+  img {
+    width: 100%;
+  }
+  .container {
+    width: 314px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 315px;
+    height: 550px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 2rem 2rem 2rem 2rem;
+  }
+
+  img.illustration {
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: rem;
+    color: var(--Dark-blue);
+  }
+
+  p.text {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .plano {
+    height: 60px;
+    width: 260px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: var(--Very-pale-blue);
+    margin-bottom: rem;
+    padding: 5px 5px;
+  }
+  .information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 5px;
+  }
+  span {
+    display: block;
+    flex-direction: column;
+  }
+
+  span.month {
+    color: var(--Desaturated-blue);
+    font-size: 2px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  span.money {
+    color: var(--Desaturated-blue);
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn .payment-btn {
+    width: 267px;
+    height: 47px;
+    padding: 15px 50px;
+    background-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .btn .cancel-btn {
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 10px 60px;
+    margin-top: 1rem;
+    border: none;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .btn .payment-btn:hover {
+    background-color: var(--Desaturated-blue);
+  }
+
+  .btn .cancel-btn:hover {
+    color: black;
+  }
+
+  .a {
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: var(--Bright-blue);
+  }
+}
